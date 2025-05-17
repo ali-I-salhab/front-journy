@@ -35,3 +35,8 @@ block level element always start in new line and take all available space
 
 div = block level element always start in new line and take all available space
 span = in line element
+
+{div - span } is generic containers
+in html5 we have sematic containers
+
+<article><figure><mark><time>

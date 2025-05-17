@@ -12,6 +12,31 @@
       ul {
         list-style-type: square;
       }
+      @keyframes pop {
+        0% {
+          transform: scale(1);
+        }
+        25% {
+          transform: scale(1.4);
+        }
+        30% {
+          transform: rotate(40deg);
+        }
+        35% {
+          transform: translateX(400px);
+        }
+        40% {
+          padding: 40px;
+        }
+        50% {
+          transform: translateY(200px);
+          background-color: tomato;
+        }
+        100% {
+          transform: scale(1);
+          background-color: red;
+        }
+      }
       table,
       td,
       th {
@@ -27,6 +52,11 @@
         color: blue;
         background-color: aqua;
         width: 200px;
+        height: 200px;
+        margin: 12px;
+        text-align: center;
+        animation-name: pop;
+        animation-duration: 7s;
       }
     </style>
   </head>
@@ -68,16 +98,18 @@
     <a href="#">jupm to top</a>
   </body> -->
   <body>
-    <div class="product">
+    <!-- in this way we make our markup more meaningful for search engines -->
+    <article>
+      <h1>heading</h1>
+      <p>at the <time datetime="2002-2-2">january 2/2/2002</time></p>
       <p>
-        <span style="background-color: rebeccapurple">Lorem</span> ipsum dolor
-        sit.
+        <mark>Lorem</mark> ipsum dolor sit amet consectetur adipisicing elit.
+        Facilis velit id quisquam.
       </p>
-      <a href="">contact us</a>
-    </div>
-    <div class="product">
-      <p>Lorem ipsum dolor sit.</p>
-      <a href="">contact us</a>
-    </div>
+      <figure>
+        <figcaption>her figure caption</figcaption>
+        <img style="height: 40px" src="images/coffe.jpg" alt="" />
+      </figure>
+    </article>
   </body>
 </html>
