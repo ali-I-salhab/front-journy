@@ -29,3 +29,9 @@ accept-language : en - us
 browser read the html document comming from the erver it construct what we call
 dom(document object model)
 http://127.0.0.1 this computer:5500 the bort /index.html
+
+the div element is block level element
+block level element always start in new line and take all available space
+
+div = block level element always start in new line and take all available space
+span = in line element
