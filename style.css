@@ -1,0 +1,29 @@
+.container{
+    padding: 12px;
+     height: 40vh;
+    border: 3px solid gold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    
+   
+}
+
+.box{
+    
+    background-color: red;
+    flex-basis: 15rem;
+    flex-shrink: 3;
+    /* override the width property because we set flex-deriction to row  */
+    width: 120px;
+    height: 120px;
+    margin: 2px;
+
+}
+.box-one{
+       /* flex-grow: 2; */
+           flex-shrink: 0;
+
+
+}
