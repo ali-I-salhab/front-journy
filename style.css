@@ -1,29 +1,39 @@
+
 .container{
-    padding: 12px;
-     height: 40vh;
-    border: 3px solid gold;
-    display: flex;
-    flex-direction: row;
+    height: 30rem;
+    width: 30rem;
+    border: 5px solid grey;
+    display: grid;
+    box-sizing: content-box;
+  
+    
+
+    grid-template: repeat(3,150px)/30fr 70fr   ;
+      grid-template-areas:
+    "header header"
+    "sidebar main"
+    ". footer" ;
+    /* align items *50
+    /* justify-items: stretch;
+    align-items: stretch; */
+    /* align content to align grid relative to its container */
     justify-content: center;
+    row-gap: 12px;
+    column-gap: 12px;
 
-    
-   
+
 }
-
 .box{
+    padding: 12px;
+    background-color: blueviolet;
     
-    background-color: red;
-    flex-basis: 15rem;
-    flex-shrink: 3;
-    /* override the width property because we set flex-deriction to row  */
-    width: 120px;
-    height: 120px;
-    margin: 2px;
-
+    /* width: 100px;
+    height: 100px; */
 }
 .box-one{
-       /* flex-grow: 2; */
-           flex-shrink: 0;
-
-
+  
+/* grid-area: footer; */
+}
+.box-four{
+    grid-area: footer;
 }
