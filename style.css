@@ -1,39 +1,7 @@
-
-.container{
-    height: 30rem;
-    width: 30rem;
-    border: 5px solid grey;
-    display: grid;
-    box-sizing: content-box;
-  
-    
-
-    grid-template: repeat(3,150px)/30fr 70fr   ;
-      grid-template-areas:
-    "header header"
-    "sidebar main"
-    ". footer" ;
-    /* align items *50
-    /* justify-items: stretch;
-    align-items: stretch; */
-    /* align content to align grid relative to its container */
-    justify-content: center;
-    row-gap: 12px;
-    column-gap: 12px;
-
-
+.first:hover{
+    display: none;
+    /* visibility: hidden; */
 }
-.box{
-    padding: 12px;
-    background-color: blueviolet;
-    
-    /* width: 100px;
-    height: 100px; */
-}
-.box-one{
-  
-/* grid-area: footer; */
-}
-.box-four{
-    grid-area: footer;
-}
+
+/* display property hide the element as if they never there */
+/* visibility the element will be hiden */
