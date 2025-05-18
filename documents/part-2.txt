@@ -1,0 +1,25 @@
+1-[box_modle]
+when browser render element it put it iside invisible box
+content 
+padding 
+border 
+margin 
+p:is bloc level element
+margin collapsing
+2-[sizing_elements]
+we define two property box-sizing
+box-sizing:border-box content-box
+display : block inline inline-block
+3-[overflowing]
+overflow:hidden auto scroll 
+4-[measurement units]
+-absolute:px pt in cm mm 
+   -- there values never changes
+   -- always fix valus never change
+-relative: 
+   -- relative to some thing 
+     -% relative to the size of the conatiner
+     -vh vw relatibe to the view port
+     -em rem  relative to the font size
+5[float elements]
+never use float in your layout it so complicated and were uesed in the past before flexbox and grid 
