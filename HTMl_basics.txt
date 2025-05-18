@@ -56,7 +56,4 @@ all sematic elements
 9-header:to represent the intoduced contnet in full page or section or article
 10-nav
 11-aside : we use this element to represent content not dirctly relaed to the main element
-12-
-13-
-14-
-15-
+====== css basics ======

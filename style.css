@@ -1,0 +1,13 @@
+.box{
+    width: 200px;
+    height: 200px;
+border:  dashed red;
+margin: 12px;
+
+box-shadow:0 0  40px red;
+
+}
+h1{
+    color: blue;
+    text-shadow: 10px -5px 10px rgb(255, 0, 0);
+}

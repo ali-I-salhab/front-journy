@@ -7,85 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Salhabitoo</title>
+    <link rel="stylesheet" href="style.css" />
     <style>
-      /* apply role for our image tag */
-      ul {
-        list-style-type: square;
-      }
-      @keyframes pop {
-        0% {
-          transform: scale(1);
-        }
-        25% {
-          transform: scale(1.4);
-        }
-        30% {
-          transform: rotate(40deg);
-        }
-        35% {
-          transform: translateX(400px);
-        }
-        40% {
-          padding: 40px;
-        }
-        50% {
-          transform: translateY(200px);
-          background-color: tomato;
-        }
-        100% {
-          transform: scale(1);
-          background-color: red;
-        }
-      }
-      table,
-      td,
-      th {
-        border: 1px dashed;
-        border-collapse: collapse;
-        padding: 10px;
-      }
-      tfoot {
-        text-align: left;
-      }
-      /* selector */
-      div.product {
-        color: blue;
-        background-color: aqua;
-        width: 200px;
-        height: 200px;
-        margin: 12px;
-        text-align: center;
-        animation-name: pop;
-        animation-duration: 7s;
-      }
+      /* providing css in three ways */
+      /* embedded stylesheet */
+      /* not scalable soo if we have another page we need to copy this styles */
+      /*separation of concerns  */
     </style>
   </head>
 
   <body>
-    <header>
-      <ul>
-        <li>heading2</li>
-        <li></li>
-        <li></li>
-      </ul>
-    </header>
-    <main>
-      <section>in the section we group related components</section>
-      <section></section>
-      <section></section>
-    </main>
-    <aside>
-      in the aside element we put any content not directly related to the main
-      element
-    </aside>
-    <footer>
-      <nav>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-      </nav>
-    </footer>
+    <div class="box">
+      <h1>ali sahab</h1>
+    </div>
   </body>
 </html>
+
+<!-- pseudo class selectors -->
+<!-- pseudo elements selectors -->

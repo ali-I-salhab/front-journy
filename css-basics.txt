@@ -1,0 +1,79 @@
+css basics
+
+[providing css]
+
+1- embedded stylesheet :we add style tag in the head section
+2-External stylesheet : we define our styles in seperate file
+3-inline styles : we can directly implement style to a html element
+
+
+// the embedded stylesheet method for providing css have 2 main problems :
+1- it is not scalable wich mean if we define styles int the rmmbedded style tag in the head section
+and create new page we need to copy all style of that page and if we need in the future to edit some thing we need to edit it in
+each page separatle 
+2- in computer science there is a principle called 
+"SEPARATION OF CONCERNES" so html is a concern 
+and css is also a concern so its abig problem to put them to getter 
+ -----
+  
+  we can provide style inline style method
+  by using the style property of each element but this so ugly never use it 
+
+  also we can provide style by the id of an element 
+  as we know the id of element should be unique not repeated in any other page
+[normalizig css]
+different browsers can render different html elements in different ways
+so we doenload file normalizigcss.css to make our page work the same method 
+in all browsers 
+[basic selectors]
+we can select elements by thier type id class or attribute
+type example p{}
+id example #id{}
+class examle .ali{}
+attribute examle a[href*='google'][href$='com' ][href^='http']
+here  we select any anger element
+$=endwith
+^=startwith
+*=contain
+[relational selectors]
+
+#products ~ p {
+    color: brown;
+}
+#products  p all childrens in any level
+#products > p all childrens in the first level
+#products + p first p after this id 
+#products ~ p all p after this id 
+[pseudo selectors] diverge to two sections
+ [pseudo class :  selectors ][pseudo element :: selectors]
+
+[pseudo class selectors] : 
+to style elements in particular state
+[pseudo element selectors] :
+to style part of an element
+
+[selectors specificty]
+more than one role can target a given element and this roles have conflicting styles
+
+
+/* selector specificity come to the picture */
+each selector has a specificity (weigth)
+if multiple roles target the same element
+id selector very specific
+|
+class selector or attribute selector less specific
+|
+type selector the lessest selector
+
+
+how overriding done
+[inheritance]
+we define strong inside p then give p selector with color red 
+the strong color will inheritance the color from p 
+border not inherited
+
+[colors]
+named colors
+rgb colors
+hsl degreof the color saturation lightness
+hexadecimal values 
