@@ -21,5 +21,12 @@ overflow:hidden auto scroll
      -% relative to the size of the conatiner
      -vh vw relatibe to the view port
      -em rem  relative to the font size
-5[float elements]
+5-[float elements]
 never use float in your layout it so complicated and were uesed in the past before flexbox and grid 
+6-[flexbox]
+flex box or flexible box layout used for laying out elements in one direction
+
+
+remember thats 
+justify-content : main axis
+align-items     : cross axis   
