@@ -1,30 +1,16 @@
-.container{
-    display: flex;
-    flex-direction: column;
+
+@font-face {
+    font-family: "opensans-bold";
+    src: url('css/fonts/open-sans/OpenSans-Bold.woff');
+    font-weight: normal;
+    font-style: normal;
 }
-.box{
-    background-color: gold;
-    padding: 1rem;
+@font-face {
+    font-family: "opensans";
+    src: url('css/fonts/open-sans/OpenSans-Regular.woff');
+        font-weight: normal;
+    font-style: normal;
 }
-.box:nth-of-type(2){
-    background-color: red;
-}
-@media screen and (min-width:600px) and (max-width:900px){
-    .container{
-        flex-direction: row;
-        margin: 12rem;
-    }
-    .box:nth-of-type(2){
-    background-color: rgb(255, 0, 204);
-}
-}
-/* screen size greter than 900 px */
-@media screen and (min-width:900px) {
-    .container{
-        flex-direction: row;
-        margin: 12rem;
-    }
-    .box:nth-of-type(2){
-    background-color: rgb(25, 0, 255);
-}
+p{
+    font-family: opensans;
 }

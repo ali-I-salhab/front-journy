@@ -1,0 +1,20 @@
+[typography]
+1-[styling fonts]
+ the most popular categories of fonts are 
+ we use the property font-family to styling font
+ 1-serif : have small line at the end of each charachter so it appear as serious and professitional
+      ex:Georgia - times new roman 
+ 2-sans-serif : look modern
+      ex :avenir arial futura helvetica robot
+ 3-monospace: mono mean one so each letter have the same width it used in code editors
+      ex : consolas courier ubuntu
+
+
+2-[embedding fonts] 
+   we talk about web safe fonts :
+       arial , helvetica,Georgia,times new robot
+   where we can find fonts 
+     fontsquirrel.com
+     fonts.com
+     myfonts.com    
+    font formats ttf otf eot woff woff 2.0
